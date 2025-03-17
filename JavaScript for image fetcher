@@ -1,0 +1,11 @@
+ const GoogleImageFetcher = require('google-image-fetcher');
+
+ // Create an instance of GoogleImageFetcher (no need to pass API Key and CX ID here)
+ const imageFetcher = new GoogleImageFetcher();
+
+ // Define the query and the save folder (optional)
+ const query = 'YOUR_QUERY';
+ const saveFolder = 'YOUR_FOLDER_NAME';
+
+ // Call the fetchImages method to fetch and save images
+ imageFetcher.fetchImages(query, saveFolder);
